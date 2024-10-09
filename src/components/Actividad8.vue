@@ -1,0 +1,2 @@
+<!-- 8.- Clases dinámicas con v-bind:class
+Enunciado: Crea un componente que tenga un botón. El botón debe tener una clase CSS dinámica que cambie según un valor booleano en el data. Usa v-bind:class para aplicar la clase condicionalmente. -->
