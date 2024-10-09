@@ -7,6 +7,7 @@
 //import Actividad3 from './components/Actividad3.vue'
 //import Actividad4 from './components/Actividad4.vue'
 //import Actividad6 from './components/Actividad6.vue'
+//import Actividad5 from './components/Actividad5.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@
   <Actividad6/>
   <Actividad3/>
   <Actividad4/>
+  <Actividad5/>
 </template>
 
 <style scoped>
