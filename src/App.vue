@@ -1,5 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Actividad7 from './components/Actividad7.vue'
+import Actividad8 from './components/Actividad8.vue'
 </script>
 
 <template>
@@ -12,6 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <Actividad7/>
+  <Actividad8/>
 </template>
 
 <style scoped>
