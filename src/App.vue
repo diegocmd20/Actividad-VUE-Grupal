@@ -1,12 +1,19 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
+// import Actividad1 from './components/Actividad1.vue' 
+import Actividad2 from './components/Actividad2.vue'
 import Actividad3 from './components/Actividad3.vue'
 import Actividad4 from './components/Actividad4.vue'
 </script>
 
 <template>
+  <div>
+    <Actividad2/>
+  </div>
   <Actividad3/>
   <Actividad4/>
+
+
 </template>
 
 <style scoped>
