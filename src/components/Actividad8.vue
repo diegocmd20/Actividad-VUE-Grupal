@@ -1,37 +1,29 @@
 <!-- 8.- Clases dinámicas con v-bind:class
 Enunciado: Crea un componente que tenga un botón. El botón debe tener una clase CSS dinámica que cambie según un valor booleano en el data. Usa v-bind:class para aplicar la clase condicionalmente. -->
 <template>
-  <select v-model="color">
-      <option value="yellow">Amarillo</option>
-      <option value="red">Rojo</option>
-      <option value="green">Verde</option>
-  </select>
-  <!-- Data Bind de Class  -->
-  <p :class="{red:color === 'red', yellow:color === 'yellow', green:color === 'green'}">Parrafo de Ejemplo {{ color }}</p> 
-  <!-- Data Bind con Style -->
-  <p :style="{color:color}">El color seleccionado es: {{ color }}</p>
-  <!-- Data Bind más corto de clase -->
-  <p :class="color">Texto de Ejemplo</p>
+  <div>
+    <button @click="selector=!selector" :class="selector ? clase1:clase2"></button>
+  </div>
 </template>
+
 <script>
 export default {
-  name: 'Seleccion',
+  name: 'Actividad8',
   data() {
-      return {
-          color: 'red',
-      };
+    return {
+      selector:false,
+      clase1:'red',
+      clase2:'blue'
+    };
   }
 };
 </script>
+
 <style scoped>
-  .red{
-      color: red;
-  }
-  
-  .yellow{
-      color: yellow;
-  }
-  .green{
-      color: green;
-  }
+.red{
+  background-color: red
+}
+.blue{
+  background-color: blue;
+}
 </style>
