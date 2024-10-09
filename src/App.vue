@@ -1,5 +1,7 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
+// import Actividad7 from './components/Actividad7.vue'
+// import Actividad8 from './components/Actividad8.vue'
 // import Actividad1 from './components/Actividad1.vue' 
 //import Actividad2 from './components/Actividad2.vue'
 //import Actividad3 from './components/Actividad3.vue'
@@ -8,13 +10,11 @@
 </script>
 
 <template>
-  <div>
-    <Actividad6/>
-  </div>
+  <Actividad7/>
+  <Actividad8/>
+  <Actividad6/>
   <Actividad3/>
   <Actividad4/>
-
-
 </template>
 
 <style scoped>
